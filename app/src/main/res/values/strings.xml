@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">ParcourActivity</string>
+    <string name="title_activity_parcour_activiy">ParcourActiviy</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="text_view_speedometer">0 Km/s</string>
+    <string name="switch_unit_metric">Metric Units</string>
+    <string name="distance">Distance</string>
+    <string name="altitude">Altitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="latitude">Latitude</string>
+    <string name="vitesse">Vitesse</string>
+    <string name="pente">Pente</string>
+    <string name="denivele">Denivelé</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="heure_de_d_but">Heure de Début</string>
+    <string name="heure_de_fin">Heure de Fin</string>
+    <string name="creer_un_evenement">Creer un evenement</string>
+    <string name="lieu">Lieu</string>
+    <string name="calendrier">Calendrier</string>
+    <string name="description">Description</string>
+    <string name="annuler">Annuler</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="cr_er_un_v_nement">Créer un évènement</string>
+    <string name="saissisez_votre_nom">Saissisez votre nom</string>
+    <string name="mot_de_pass_oublier">Mot de Pass Oublier</string>
+    <string name="connexion">Connexion</string>
+    <string name="gmail">gmail</string>
+    <string name="facebook">Facebook</string>
+    <string name="email">Email</string>
+    <string name="mot_de_passe">Mot de Passe</string>
+    <string name="inscription">inscription</string>
+    <string-array name="titre">
+        <item>Créer un évènement</item>
+        <item>Rando</item>
+        <item>Velo</item>
+        <item>Marche</item>
+        <item>BALADE</item>
+    </string-array>
+</resources>

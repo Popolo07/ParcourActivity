@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "970012373247",
+    "project_id": "damsport-d9574",
+    "storage_bucket": "damsport-d9574.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970012373247:android:f8eae2acc6381351ccdcca",
+        "android_client_info": {
+          "package_name": "com.example.parcouractivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970012373247-5t57jvvtq52ak1s9fhf39jmppkl0mr01.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmnBztmogl3rNFZzJTkEBQnmjX6Oen3m8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970012373247-5t57jvvtq52ak1s9fhf39jmppkl0mr01.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

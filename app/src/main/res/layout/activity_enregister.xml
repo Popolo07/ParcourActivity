@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fond"
+    android:foregroundGravity="fill_vertical"
+    android:onClick="onClick"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    tools:context=".EnregisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnSinscrire"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginTop="20dp"
+                android:tag="inscription"
+                android:text="@string/inscription"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:backgroundTint="@color/bl_200"
+                tools:ignore="OnClick" />
+
+            <EditText
+                android:id="@+id/editTxtmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+
+                android:layout_marginTop="20dp"
+                android:autofillHints=""
+                android:background="@android:drawable/editbox_background"
+                android:ems="10"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:text="toto@cici.com"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTxtNumberPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:autofillHints=""
+                android:background="@android:drawable/editbox_background"
+                android:ems="10"
+                android:gravity="center_horizontal|center_vertical"
+                android:hint="@string/mot_de_passe"
+                android:inputType="textPassword"
+                android:text="tata"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                tools:ignore="LabelFor" />
+
+            <Button
+                android:id="@+id/btnConnexion"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:tag="connexion"
+                android:text="@string/connexion"
+                app:backgroundTint="#019AE8" />
+
+            <Button
+                android:id="@+id/btnMotDePassOublier"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:tag="passeoublier"
+                android:text="@string/mot_de_pass_oublier"
+                app:backgroundTint="#019AE8" />
+
+            <Button
+                android:id="@+id/btnGmail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:tag="gmail"
+                android:text="@string/gmail"
+                app:backgroundTint="#019AE8" />
+
+            <Button
+                android:id="@+id/btnFacebook"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:tag="facebook"
+                android:text="@string/facebook"
+                app:backgroundTint="#019AE8" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
