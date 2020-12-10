@@ -419,11 +419,6 @@ public class MapFragment extends Fragment {
 
         myLocationOverlay = new DirectedLocationOverlay(map.getContext());
 
-
-
-
-
-
         //needed for pinch zooms
         map.setMultiTouchControls(true);
 
